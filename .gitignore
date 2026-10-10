@@ -1,18 +1,11 @@
-# Entorno virtual de Python
-venv/
-
-# Archivos de caché de Python
-__pycache__/
-*.py[cod]
-
-# Datos (Muy pesados, no se suben a Git)
+# Datos crudos y procesados (Nunca subir a Git)
+ieee-fraud-detection/
 data/raw/
 data/processed/
+*.csv
+*.zip
 
-# Variables de entorno y credenciales (Seguridad crítica)
+# Entorno virtual y archivos de sistema
+venv/
+__pycache__/
 .env
-*.env
-
-# Archivos de sistema
-.DS_Store
-Thumbs.db
